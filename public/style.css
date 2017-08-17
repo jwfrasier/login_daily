@@ -1,0 +1,11 @@
+.test {
+  text-align: center;
+  margin-top: 35%;
+}
+.errorMessage{
+  text-align: center;
+  color: red;
+}
+.work {
+  padding-top: 50px;
+}
