@@ -57,8 +57,7 @@ app.post("/authorization", function(req, res, ) {
 
   const loginName = req.body.username
   const passwordInfo = req.body.password
-
-  let database
+  let database;
   for (var i = 0; i < users.length; i++) {
     if (users[i].username === loginName && users[i].password === passwordInfo) {
       database = users[i]
